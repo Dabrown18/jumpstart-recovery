@@ -1,8 +1,8 @@
 .bg-foreground {
 	background: linear-gradient(-90deg, #eac4b9, #f9edd7);
-	min-height: 700px;
-	height: 100%;
-	width: 100%;
+	min-height: 500px;
+	max-width: 100%;
+	padding: 100px 170px 100px 170px;
 }
 
 .bg-image {
@@ -12,7 +12,6 @@
 
 .content {
 	max-width: 300px;
-	padding: 100px 170px 100px 170px;
 }
 
 .logo-black {
@@ -42,4 +41,84 @@
 	float: left;
 	word-spacing: 1px;
 	letter-spacing: 1px
+}
+
+.email-form {
+	display: block;
+	align-items: center;
+	float: left;
+	background-color: white;
+	max-width: 100%;
+	max-height: 100px;
+	height: 100%;
+	width: 100%;
+	margin-top: 50px;
+	-moz-box-shadow: 0 0 2px #fff;
+	-webkit-box-shadow: 0 0 2px #fff;
+	box-shadow: 0 0 2px #fff;
+}
+
+.form-title {
+	display: inline-block;
+	text-align: left;
+	padding-left: 30px;
+	width: 30%;
+	float: left;
+	margin: 0px;
+}
+
+.primary {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	margin-right: 0;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.secondary {
+	color: #9B9B9B;
+	font-size: 14px;
+	font-family: 'Graphik 500',Helvetica,Arial,sans-serif;
+	font-weight: lighter;
+	font-style: normal;
+	word-spacing: .2px;
+	letter-spacing: .5px
+}
+
+.form {
+	justify-content: center;
+	align-items: center;
+	display: inline-block;
+	float: left;
+	margin: 20px;
+	width: 60%;
+}
+
+input {
+	max-width:100%;
+	max-height: 100%;
+	width: 55%;
+	height: 45px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size: 20px;
+}
+
+input::placeholder {
+	padding-left: 10px;
+}
+button {
+	background-color: #ee6c56;
+	max-width:40%;
+	max-height: 100%;
+	width: 100%;
+	height: 50px;
+	margin-left: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
 }
