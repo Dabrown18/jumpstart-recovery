@@ -1,0 +1,17 @@
+.damage-instances {
+	background: linear-gradient(#fefcf0, #ffffff);
+	max-width: 100%;
+	width: 100%;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.damage-instances h2 {
+	width: 80%;
+	margin: 0 auto 25px auto;
+	font-family: 'Graphik 600',Helvetica,Arial,sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+	font-style: normal;
+	font-stretch: normal;
+}
