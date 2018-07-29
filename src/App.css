@@ -23,7 +23,8 @@
 }
 
 body {
-  background: linear-gradient(-90deg, #eac4b9, #f9edd7);
+  font-family: 'Questrial';
+  font-size: 22px;
 }
 
 @keyframes App-logo-spin {

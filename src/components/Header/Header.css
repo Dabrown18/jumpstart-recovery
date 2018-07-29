@@ -1,0 +1,45 @@
+.bg-foreground {
+	background: linear-gradient(-90deg, #eac4b9, #f9edd7);
+	min-height: 700px;
+	height: 100%;
+	width: 100%;
+}
+
+.bg-image {
+	width: 100%;
+	max-height: 700px;
+}
+
+.content {
+	max-width: 300px;
+	padding: 100px 170px 100px 170px;
+}
+
+.logo-black {
+	z-index: auto;
+	max-width: 298px;
+	float: left;
+}
+
+
+.page-title {
+	text-align: left;
+	font-weight: bolder;
+	font-size: 54px;
+	width: 450px;
+	z-index: 1;
+	top: 225px;
+	float: left;
+	margin-bottom: 0px;
+}
+
+.page-subtitle {
+	font-weight: lighter;
+	width: 400px;
+	font-size: 24px;
+	text-align: left;
+	z-index: 2;
+	float: left;
+	word-spacing: 1px;
+	letter-spacing: 1px
+}
