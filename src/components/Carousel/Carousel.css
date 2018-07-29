@@ -16,6 +16,29 @@
 	font-stretch: normal;
 }
 
+.image_container {
+	width: 70%;
+	margin: 0px auto;
+}
+
+.image_container p {
+	margin-right: 50px;
+	margin-top: 15px;
+	color: #BEBEBE;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Graphik 500',Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+}
+
 .image {
 	height: 200px;
 }
+
+/* Carousel Slider */
+
+
+
+

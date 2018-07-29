@@ -18,102 +18,116 @@ const Daycare         = require('../../img/daycare.png');
 export default class ImageCarousel extends Component {
 	render() {
 		const settings = {
-			dots: true,
+			dots: false,
 			infinite: true,
-			slidesToShow: 3,
+			slidesToShow: 4,
 			slidesToScroll: 1,
 			autoplay: true,
-			speed: 2000,
-			autoplaySpeed: 2000,
-			cssEase: "linear"
+			autoplaySpeed: 3000,
+			pauseOnHover: true
 		};
 
 		return (
-			<Slider {...settings}>
-				<div>
-					<img
-						src={AccessDenied}
-						alt="Access Denied"
-						className="image"
-					/>
-				</div>
-				<div>
-					<img
-						src={VehicleDamage}
-						alt="Vehicle Damage"
-						className="image"
-					/>
-				</div>
-				<div>
-					<img
-						src={BrokenComputer}
-						alt="Broken Computer"
-						className="image"
-					/>
-				</div>
-				<div>
-					<img
-						src={DataLost}
-						alt="Data Lost"
-						className="image"
-					/>
-				</div>
-				<div>
-					<img src={BusinessClosed}
-						  alt="Business Closed"
-						  className="image"
-					/>
-				</div>
-				<div>
-					<img
-						src={BridgeDamage}
-						alt="Bridge Damage"
-						className="image"
-					/>
-				</div>
-				<div>
-					<img
-						src={GarageBreakdown}
-						alt="Garage Breakdown"
-						className="image"
-					/>
-				</div>
-				<div>
-					<img
-						src={MissedFlight}
-						alt="Missed Flight"
-						className="image"
-					/>
-				</div>
-				<div>
-					<img
-						src={HouseFire}
-						alt="House Fire"
-						className="image"
-					/>
-				</div>
-				<div>
-					<img
-						src={CommuteRisk}
-						alt="Commute Risk"
-						className="image"
-					/>
-				</div>
-				<div>
-					<img
-						src={BrokenPhone}
-						alt="Broken Phone"
-						className="image"
-					/>
-				</div>
-				<div>
-					<img
-						src={Daycare}
-						alt="Daycare"
-						className="image"
-					/>
-				</div>
-			</Slider>
+			<div className="image_container">
+				<Slider {...settings}>
+					<div className="image_container">
+						<img
+							src={AccessDenied}
+							alt="Access Denied"
+							className="image"
+						/>
+						<p>Access Denied</p>
+					</div>
+					<div className="image_container">
+						<img
+							src={VehicleDamage}
+							alt="Vehicle Damage"
+							className="image"
+						/>
+						<p>Vehicle damage</p>
+					</div>
+					<div className="image_container">
+						<img
+							src={BrokenComputer}
+							alt="Broken Computer"
+							className="image"
+						/>
+						<p>Broken computer</p>
+					</div>
+					<div className="image_container">
+						<img
+							src={DataLost}
+							alt="Data Lost"
+							className="image"
+						/>
+						<p>Data lost</p>
+					</div>
+					<div className="image_container">
+						<img src={BusinessClosed}
+							  alt="Business Closed"
+							  className="image"
+						/>
+						<p>Business closed</p>
+					</div>
+					<div className="image_container">
+						<img
+							src={BridgeDamage}
+							alt="Bridge Damage"
+							className="image"
+						/>
+						<p>Bridge damage</p>
+					</div>
+					<div className="image_container">
+						<img
+							src={GarageBreakdown}
+							alt="Garage Breakdown"
+							className="image"
+						/>
+						<p>Garage breakdown</p>
+					</div>
+					<div className="image_container">
+						<img
+							src={MissedFlight}
+							alt="Missed Flight"
+							className="image"
+						/>
+						<p>Missed flight</p>
+					</div>
+					<div className="image_container">
+						<img
+							src={HouseFire}
+							alt="House Fire"
+							className="image"
+						/>
+						<p>Fire due to quake</p>
+					</div>
+					<div className="image_container">
+						<img
+							src={CommuteRisk}
+							alt="Commute Risk"
+							className="image"
+						/>
+						<p>Commute risk</p>
+					</div>
+					<div className="image_container">
+						<img
+							src={BrokenPhone}
+							alt="Broken Phone"
+							className="image"
+						/>
+						<p>Broken phone</p>
+					</div>
+					<div className="image_container">
+						<img
+							src={Daycare}
+							alt="Daycare"
+							className="image"
+						/>
+						<p>Daycare cancelled</p>
+					</div>
+				</Slider>
+			</div>
+
 		)
 	}
 }
