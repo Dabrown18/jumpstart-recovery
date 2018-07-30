@@ -1,9 +1,10 @@
 import React from 'react';
 import './HowItWorks.css';
 
-const ZipCode   = require('../../img/zip-code.png');
-const Text      = require('../../img/text.png');
-const Deposited = require('../../img/deposited.png');
+const ZipCode       = require('../../img/zip-code.png');
+const Text          = require('../../img/text.png');
+const Deposited     = require('../../img/deposited.png');
+const GirlCartwheel = require('../../img/girl-cartwell.png');
 
 const HowItWorks = () => (
 	<div className="how-it-works">
@@ -43,6 +44,10 @@ const HowItWorks = () => (
 				<p>No hassle</p>
 				<button className="signup_btn">Sign Up</button>
 			</div>
+		</div>
+		<div className="jump-bg">
+			<img src={GirlCartwheel} alt="Girl doing a cartwheel" className="cartwheel-bg"/>
+			<h3 className="top-left">Hello There</h3>
 		</div>
 	</div>
 );

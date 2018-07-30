@@ -38,11 +38,11 @@
 .how-content .secondary {
 	width: 80%;
 	margin: 0 auto;
+	margin-bottom: 50px;
 	font-family: 'Graphik 600',Helvetica,Arial,sans-serif;
 	font-weight: 600;
 	font-style: normal;
 	font-stretch: normal;
-	margin-bottom: 30px;
 	font-size: 50px;
 	color: #000;
 }
@@ -91,4 +91,23 @@
 	font-size: 18px;
 	font-weight: bold;
 	color: white;
+}
+
+.jump-bg {
+	position: relative;
+	margin: 0px 10%;
+	background: linear-gradient(#fbe7f3, #f1dbac);
+	background: linear-gradient(to right,#f8e8f2, #f3e1d3, #f0dfc3, #eedbb1);
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+.cartwheel-bg {
+	width:100%;
+}
+
+.top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
 }
