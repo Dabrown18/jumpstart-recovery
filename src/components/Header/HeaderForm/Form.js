@@ -5,7 +5,7 @@ export default class Form extends Component {
 		return (
 			<form action="" className="form">
 				<input type="email" placeholder="Your email address"/>
-				<button>Inquire</button>
+				<button className="email_btn">Inquire</button>
 			</form>
 		)
 	}

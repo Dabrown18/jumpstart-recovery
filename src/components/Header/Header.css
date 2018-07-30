@@ -108,7 +108,8 @@ input {
 input::placeholder {
 	padding-left: 10px;
 }
-button {
+
+.email_btn {
 	background-color: #ee6c56;
 	max-width:40%;
 	max-height: 100%;
@@ -121,4 +122,9 @@ button {
 	font-size: 25px;
 	font-weight: bold;
 	color: white;
+}
+
+button:hover {
+	background-color: #a64a3b;
+	transition: all .5s;
 }

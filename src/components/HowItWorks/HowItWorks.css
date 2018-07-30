@@ -1,0 +1,94 @@
+.how-it-works {
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.how-bg {
+	margin: 100px 10% 0px 10%;
+	background: linear-gradient(-90deg, #f1dbac, #fbe7f3);
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+.how-content {
+	background-color: #ffffff;
+	text-align: center;
+	padding: 5% 10%;
+	margin: 10% 15% 10% 15%;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+
+.how-content p {
+	color: #9B9B9B;
+}
+
+.how-content .primary {
+	color: #FFA599;
+	font-family: 'Graphik 600',Helvetica,Arial,sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.how-content .secondary {
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Graphik 600',Helvetica,Arial,sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	margin-bottom: 30px;
+	font-size: 50px;
+	color: #000;
+}
+
+.item_info {
+	padding-top: 1px;
+}
+
+.iphone_container_item {
+	display: block;
+	max-width: 600px;
+	width: 100%;
+	height: 300px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.iphone_title_h3 {
+	font-weight: bolder;
+}
+
+.iphone_title_p {
+	color: #9B9B9B;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.iphone {
+	display: inline-block;
+	width: 225px;
+	height: 269px;
+	float: left;
+	padding-right: 30px;
+}
+
+.signup_btn {
+	background-color: #ee6c56;
+	max-width:20%;
+	max-height: 100%;
+	width: 100%;
+	height: 50px;
+	margin-left: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
