@@ -2,6 +2,7 @@ import React from 'react';
 import './BackOnTrack.css';
 
 const IndianGuy = require('../../img/indian-guy.png');
+const FreeLancer = require('../../img/free-lancer.png');
 
 const BackOnTrack = () => (
 	<div className="back-on-track-container">
@@ -14,14 +15,17 @@ const BackOnTrack = () => (
 				<img
 					src={IndianGuy}
 					alt="Male Testimonial"
-					className="male-testimonial"
+					className="testimonial-img"
 				/>
 			</div>
 			<div className="foreground">
 				<div className="background-2">
-					<img src="" alt=""/>
-					Hello
 				</div>
+				<img
+					src={FreeLancer}
+					alt="Female Free Lancer"
+					className="testimonial-img"
+				/>
 			</div>
 		</div>
 	</div>

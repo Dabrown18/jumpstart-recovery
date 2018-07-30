@@ -33,10 +33,10 @@
 
 .background-2 {
 	background: linear-gradient(to right, #c6e9e3, #ede7e9, #c6e9e3);
-	height: 70%;
+	height: 350px;
 }
 
-.male-testimonial {
+.testimonial-img {
 	position: absolute;
 	width: 100%;
 	bottom:0;

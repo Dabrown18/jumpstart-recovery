@@ -96,7 +96,6 @@
 .jump-bg {
 	position: relative;
 	margin: 0px 10%;
-	background: linear-gradient(#fbe7f3, #f1dbac);
 	background: linear-gradient(to right,#f8e8f2, #f3e1d3, #f0dfc3, #eedbb1);
 	overflow: hidden;
 	border-radius: 2px;
