@@ -47,7 +47,15 @@ const HowItWorks = () => (
 		</div>
 		<div className="jump-bg">
 			<img src={GirlCartwheel} alt="Girl doing a cartwheel" className="cartwheel-bg"/>
-			<h3 className="top-left">Hello There</h3>
+			<div className="top-left">
+				<h2 className="cartwheel-header">
+					You will bounce back. We can make it faster.
+				</h2>
+				<p className="cartwheel-subtitle">
+					Payment is most needed immediately after a quake. With Jumpstart’s
+					streamlined process, more people can get access to recovery money in time.
+				</p>
+			</div>
 		</div>
 	</div>
 );
