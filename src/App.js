@@ -4,7 +4,8 @@ import Carousel         from './components/Carousel';
 import HowItWorks       from './components/HowItWorks';
 import BackOnTrack      from './components/BackOnTrack';
 import BuiltFromScience from './components/BuiltFromScience';
-import SignUp from './components/SignUp'
+import SignUp           from './components/SignUp';
+import Footer           from './components/Footer';
 import './App.css';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
          <BackOnTrack/>
          <BuiltFromScience/>
          <SignUp/>
+         <Footer />
       </div>
     );
   }
