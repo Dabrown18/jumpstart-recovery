@@ -2,6 +2,11 @@
 	margin: 100px 10% 0px 10%;
 }
 
+.back-on-track-container h2 {
+	font-size: 48px;
+	font-weight: bolder;
+}
+
 .back-on-track-container-p {
 	font-size: 18px;
 	width: 415px;
