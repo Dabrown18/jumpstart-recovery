@@ -2,7 +2,7 @@
 	margin: 100px 10% 0px 10%;
 }
 
-.back-on-track-container p {
+.back-on-track-container-p {
 	font-size: 18px;
 	width: 415px;
 	line-height: 30px;
@@ -10,7 +10,7 @@
 }
 
 .people-container {
-	max-height: 800px;
+	max-height: 100%;
 	max-width: 100%;
 	height: 100%;
 	width:100%;
@@ -40,4 +40,28 @@
 	position: absolute;
 	width: 100%;
 	bottom:0;
+}
+
+.text {
+	display: flex;
+}
+
+.quote-text {
+	font-size: 19px;
+	margin-bottom: 10px;
+	color: #666666;
+	line-height: 1.0;
+}
+
+.quote-source {
+	color: #9B9B9B;
+	font-size: 15px;
+}
+
+.icon {
+	width: 55px;
+	color: #ECECEC;
+	font-size: 40px;
+	padding-right: 15px;
+	float: left;
 }
