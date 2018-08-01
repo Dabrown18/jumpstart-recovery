@@ -103,3 +103,10 @@ li {
 	background: #f3a99c;
 	color: white;
 }
+
+.copyright {
+	color: rgba(0,0,0,0.5);
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 1.5;
+}

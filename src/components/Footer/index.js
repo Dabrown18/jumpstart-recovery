@@ -37,6 +37,9 @@ const Footer = () => (
 						<a href="#" className="fa fa-twitter"></a>
 					</div>
 				</div>
+				<p className="copyright">
+					© Jumpstart Insurance Solutions, Inc.
+				</p>
 			</div>
 		</div>
 	</div>
