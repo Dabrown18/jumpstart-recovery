@@ -28,6 +28,14 @@ const Footer = () => (
 							</li>
 						</ul>
 					</div>
+					<div className="follow-us">
+						<div className="list-heading">
+							Follow us
+						</div>
+						<a href="#" className="fa fa-facebook"></a>
+						<a href="#" className="fa fa-linkedin"></a>
+						<a href="#" className="fa fa-twitter"></a>
+					</div>
 				</div>
 			</div>
 		</div>
